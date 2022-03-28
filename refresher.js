@@ -1,6 +1,36 @@
 console.log("hello world");
 var message = "how are you today?";
-var greeting = "hello";
 var name = "Bob";
-console.log("In 10 years you'll be 23")
+var age = 13;
+console.log("In 10 years you'll be " + (age + 10));
+
+let name = 'Bob';
+
+if (name == 'Bob') {
+    console.log('I knew it was you,' + name + '!');
+} else {
+    console.log("Hey " + name + "you're no \"Bob.\"")
+}
+if (1 === '1') {
+    console.log(true);
+}
+
+console.log(iAmWearingABelt, iAmWearingGlasses)
+let iAmWearingABelt = true;
+le iAmWearingGlasses = false;
+
+if (iAmWearingABelt && iAmWearingGlasses) {
+    console.log('Probably not Mr. Gorton')
+} else if (iAmWearingABelt && !iAmWearingGlasses) {
+    console.log('Probably is Mr. Gorton');
+}
+// part 3
+for (let i = 0; i < 6; i++) {
+    console.log('cs is awesome');
+}
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+
 
