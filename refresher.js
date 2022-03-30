@@ -4,7 +4,7 @@ var name = "Bob";
 var age = 13;
 console.log("In 10 years you'll be " + (age + 10));
 
-let name = 'Bob';
+//part 2
 
 if (name == 'Bob') {
     console.log('I knew it was you,' + name + '!');
@@ -15,9 +15,9 @@ if (1 === '1') {
     console.log(true);
 }
 
-console.log(iAmWearingABelt, iAmWearingGlasses)
 let iAmWearingABelt = true;
-le iAmWearingGlasses = false;
+let iAmWearingGlasses = false;
+console.log(iAmWearingABelt, iAmWearingGlasses)
 
 if (iAmWearingABelt && iAmWearingGlasses) {
     console.log('Probably not Mr. Gorton')
@@ -28,9 +28,10 @@ if (iAmWearingABelt && iAmWearingGlasses) {
 for (let i = 0; i < 6; i++) {
     console.log('cs is awesome');
 }
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
 
+console.log("You are " + (age) + " years old")
 
 
