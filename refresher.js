@@ -32,6 +32,24 @@ for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
 
-console.log("You are " + (age) + " years old")
+tellMeMyAge(13);
+function tellMeMyAge(age) {
+    console.log("You are " + (age) + " years old")
+}
+
+let howMuchForAPizza = pricePizza('large');
+//console.log(pricePizza('large'));
+console.log(howMuchForAPizza);
+
+function pricePizza(size) {
+    let price;
+    if (size === 'large'){
+        price = 17.00;
+    } else {
+        price = 13.00
+    }
+    return price;
+}
+
 
 
